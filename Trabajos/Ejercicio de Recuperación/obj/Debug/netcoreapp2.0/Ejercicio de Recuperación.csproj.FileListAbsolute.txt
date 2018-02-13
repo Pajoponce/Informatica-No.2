@@ -1,0 +1,10 @@
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\bin\Debug\netcoreapp2.0\Ejercicio de Recuperación.deps.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\bin\Debug\netcoreapp2.0\Ejercicio de Recuperación.runtimeconfig.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\bin\Debug\netcoreapp2.0\Ejercicio de Recuperación.runtimeconfig.dev.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\bin\Debug\netcoreapp2.0\Ejercicio de Recuperación.dll
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\bin\Debug\netcoreapp2.0\Ejercicio de Recuperación.pdb
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\obj\Debug\netcoreapp2.0\Ejercicio de Recuperación.csproj.CoreCompileInputs.cache
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\obj\Debug\netcoreapp2.0\Ejercicio de Recuperación.AssemblyInfoInputs.cache
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\obj\Debug\netcoreapp2.0\Ejercicio de Recuperación.AssemblyInfo.cs
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\obj\Debug\netcoreapp2.0\Ejercicio de Recuperación.dll
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicio de Recuperación\obj\Debug\netcoreapp2.0\Ejercicio de Recuperación.pdb
