@@ -1,0 +1,10 @@
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\bin\Debug\netcoreapp2.0\Hoja de Trabajo 2.deps.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\bin\Debug\netcoreapp2.0\Hoja de Trabajo 2.runtimeconfig.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\bin\Debug\netcoreapp2.0\Hoja de Trabajo 2.runtimeconfig.dev.json
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\bin\Debug\netcoreapp2.0\Hoja de Trabajo 2.dll
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\bin\Debug\netcoreapp2.0\Hoja de Trabajo 2.pdb
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\obj\Debug\netcoreapp2.0\Hoja de Trabajo 2.csproj.CoreCompileInputs.cache
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\obj\Debug\netcoreapp2.0\Hoja de Trabajo 2.AssemblyInfoInputs.cache
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\obj\Debug\netcoreapp2.0\Hoja de Trabajo 2.AssemblyInfo.cs
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\obj\Debug\netcoreapp2.0\Hoja de Trabajo 2.dll
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 2\obj\Debug\netcoreapp2.0\Hoja de Trabajo 2.pdb

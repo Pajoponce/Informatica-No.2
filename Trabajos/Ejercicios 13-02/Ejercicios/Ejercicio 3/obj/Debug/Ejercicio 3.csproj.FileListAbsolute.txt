@@ -1,0 +1,5 @@
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 3\bin\Debug\Ejercicio 3.exe.config
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 3\bin\Debug\Ejercicio 3.exe
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 3\bin\Debug\Ejercicio 3.pdb
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 3\obj\Debug\Ejercicio 3.exe
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 3\obj\Debug\Ejercicio 3.pdb
