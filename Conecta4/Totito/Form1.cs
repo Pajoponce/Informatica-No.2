@@ -22,275 +22,126 @@ namespace TOTITO
 
         private void button1_Click(object sender, EventArgs e)
         {
-         /*   Button botonele = (Button)sender;
-            button13.Text = totito[0, 3];
-            switch (botonele.Name)
-            {
-
-                case "button1":
-                    
-                    if (Validate(0, 0))
-                    {
-                        button1.Text = tiros;
-                        YES(0, 0);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button2":
-                    if (Validate(0, 1))
-                    {
-                        button2.Text = tiros;
-                        YES(0, 1);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button3":
-                    if (Validate(0, 2))
-                    {
-                        button3.Text = tiros;
-                        YES(0, 2);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button4":
-                    if (Validate(0, 3))
-                    {
-                        button4.Text = tiros;
-                        YES(0, 3);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button5":
-                    if (Validate(1, 0))
-                    {
-                        button5.Text = tiros;
-                        YES(1, 0);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button6":
-                    if (Validate(1, 1))
-                    {
-                        button6.Text = tiros;
-                        YES(1, 1);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button7":
-                    if (Validate(1, 2))
-                    {
-                        button7.Text = tiros;
-                        YES(1, 2);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button8":
-                    if (Validate(1, 3))
-                    {
-                        button8.Text = tiros;
-                        YES(1, 3);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button9":
-                    if (Validate(2, 0))
-                    {
-                        button9.Text = tiros;
-                        YES(2, 0);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button10":
-                    if (Validate(2, 1))
-                    {
-                        button10.Text = tiros;
-                        YES(2, 1);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button11":
-                    if (Validate(2, 2))
-                    {
-                        button11.Text = tiros;
-                        YES(2, 2);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button12":
-                    if (Validate(2, 3))
-                    {
-                        button12.Text = tiros;
-                        YES(2, 3);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button13":
-                    if (Validate(3, 0))
-                    {
-                        button13.Text = tiros;
-                        YES(3, 0);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button14":
-                    if (Validate(3, 1))
-                    {
-                        button14.Text = tiros;
-                        YES(3, 1);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button15":
-                    if (Validate(3, 2))
-                    {
-                        button15.Text = tiros;
-                        YES(3, 2);
-                    }
-                    contador = contador + 1;
-                    break;
-                case "button16":
-                    if (Validate(3, 3))
-                    {
-                        button16.Text = tiros;
-                        YES(3, 3);
-                    }
-                    contador = contador + 1;
-                    break;
-            }
-            
-            */
-            
+         
         }
         private void Ganador()
         {
             if (VerficaGanador())
             {
-                for (int i = 0; i <= 3; i++)
+                for (int i = 0; i <=5; i++)
                 {
                     totito[i, 0] = null;
                     totito[i, 1] = null;
                     totito[i, 2] = null;
                     totito[i, 3] = null;
-                    button1.Text = "";
-                    button2.Text = "";
-                    button3.Text = "";
-                    button4.Text = "";
-                    button5.Text = "";
-                    button6.Text = "";
-                    button7.Text = "";
-                    button8.Text = "";
-                    button9.Text = "";
-                    button10.Text = "";
-                    button11.Text = "";
-                    button12.Text = "";
-                    button13.Text = "";
-                    button14.Text = "";
-                    button15.Text = "";
-                    button16.Text = "";
-                    button17.Text = "";
-                    button18.Text = "";
-                    button19.Text = "";
-                    button20.Text = "";
-                    button21.Text = "";
-                    button22.Text = "";
-                    button23.Text = "";
-                    button24.Text = "";
-                    button25.Text = "";
-                    button26.Text = "";
-                    button27.Text = "";
-                    button28.Text = "";
-                    button29.Text = "";
-                    button30.Text = "";
-                    button31.Text = "";
-                    button32.Text = "";
-                    button33.Text = "";
-                    button34.Text = "";
-                    button35.Text = "";
-                    button36.Text = "";
-                    button37.Text = "";
-                    button38.Text = "";
-                    button39.Text = "";
-                    button40.Text = "";
-                    button41.Text = "";
-                    button42.Text = "";
-                    button42.Text = "";
-                    contador = 0;
-                    tiros = "X";
-                   
+                    totito[i, 4] = null;
+                    totito[i, 5] = null;
+                    totito[i, 6] = null;
                 }
+                contador = 0;
+                tiros = "X";
+                button1.Text = "";
+                button2.Text = "";
+                button3.Text = "";
+                button4.Text = "";
+                button5.Text = "";
+                button6.Text = "";
+                button7.Text = "";
+                button8.Text = "";
+                button9.Text = "";
+                button10.Text = "";
+                button11.Text = "";
+                button12.Text = "";
+                button13.Text = "";
+                button14.Text = "";
+                button15.Text = "";
+                button16.Text = "";
+                button17.Text = "";
+                button18.Text = "";
+                button19.Text = "";
+                button20.Text = "";
+                button21.Text = "";
+                button22.Text = "";
+                button23.Text = "";
+                button24.Text = "";
+                button25.Text = "";
+                button26.Text = "";
+                button27.Text = "";
+                button28.Text = "";
+                button29.Text = "";
+                button30.Text = "";
+                button31.Text = "";
+                button32.Text = "";
+                button33.Text = "";
+                button34.Text = "";
+                button35.Text = "";
+                button36.Text = "";
+                button37.Text = "";
+                button38.Text = "";
+                button39.Text = "";
+                button40.Text = "";
+                button41.Text = "";
+                button42.Text = "";
+                button42.Text = "";
             }
         }
         public bool VerficaGanador()
         {
-            /*string cc = "";
-            for (int i = 0; i < 4; i++)
+            for (int i = 5; i > -1; i--)
             {
-                cc = totito[i, 0] + totito[i, 1] + totito[i, 2] + totito[i, 3];
-                if (cc == "XXXX" || cc=="OOOO")
+                if (totito[i,0] != null && totito[i,1] != null && totito[i, 2] != null && totito[i, 3] != null)
                 {
-                    GeezRick();
-                    MessageBox.Show("Ganador " + tiros);
-                    return true;
-                }
-            }
-            for (int i = 0; i < 4; i++)
-            {
-                cc = totito[0, i] + totito[1, i] + totito[2, i] + totito[3, i];
-                if (cc == "XXXX" || cc == "OOOO")
-                {
-                    GeezRick();
-                    MessageBox.Show("Ganador " + tiros);
-                    return true;
-                }
-            }
-            for (int i = 0; i < 4; i++)
-            {
-                cc = totito[0, 0] + totito[1, 1] +totito[2, 2] + totito[3, 3];
-                if (cc == "XXXX" || cc == "OOOO")
-                {
-                    GeezRick();
-                    MessageBox.Show("Ganador " + tiros);
-                    return true;
-
-                }
-
-            }
-            for (int i = 0; i < 4; i++)
-            {
-                cc = totito[0, 3] + totito[1, 2] + totito[2, 1] + totito[3,0];
-                if (cc == "XXXX" || cc == "OOOO")
-                {
-                    GeezRick();
-                    MessageBox.Show("Ganador "+ tiros);
-                    return true;
-                }
-            }
-            
-            if (contador == 16)
-            {
-                MessageBox.Show("Empate");
-                return true;
-            }
-            */
-            for (int i = 0; i < 4; i++)
-            {
-                if (totito[0,i] != null && totito[0,i] != null )
-                {
-                    if ((totito[0, i] == totito[0, i]) && (totito[0, i] == totito[0, i]))
+                    if ((totito[i, 0] == totito[i, 1]) && (totito[i, 2] == totito[i, 3]))
                     {
                         string ganador = totito[i, 0];
-                        MessageBox.Show("Ganador" + ganador);
+                        MessageBox.Show("Ganador " + ganador);
                         return true;
                     }
                 }
-                
+                // Ganador de las Cordenadas empezando en 0
             }
+            for (int i = 5; i > -1; i--)
+            {
+                if (totito[i, 6] != null && totito[i, 5] != null && totito[i, 4] != null && totito[i, 3] != null)
+                {
+                    if ((totito[i, 6] == totito[i, 5]) && (totito[i, 4] == totito[i, 3]))
+                    {
+                        string ganador = totito[i, 6];
+                        MessageBox.Show("Ganador " + ganador);
+                        return true;
+                    }
+                }
+                // Ganador de las Cordenadas empezando en 3
+            }
+            for (int i = 5; i > -1; i--)
+            {
+                if (totito[i, 1] != null && totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null)
+                {
+                    if ((totito[i, 1] == totito[i, 2]) && (totito[i, 3] == totito[i, 4]))
+                    {
+                        string ganador = totito[i, 1];
+                        MessageBox.Show("Ganador " + ganador);
+                        return true;
+                    }
+                }
+                // Ganador de las Cordenadas empezado en 1
+            }
+            for (int i = 5; i > -1; i--)
+            {
+                if (totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null && totito[i, 5] != null)
+                {
+                    if ((totito[i, 2] == totito[i, 3]) && (totito[i, 4] == totito[i, 5]))
+                    {
+                        string ganador = totito[i, 2];
+                        MessageBox.Show("Ganador " + ganador);
+                        return true;
+                    }
+                }
+                // Ganador de las Cordenadas empezando en 2
+            }
+            
+           
             return false;
-        }
-        private void YES(int YA, int S)
-        {
-            totito[YA, S] = tiros;
-            GeezRick();
         }
         private bool Validate(int fila, int columna)
         {
@@ -338,7 +189,7 @@ namespace TOTITO
                         button29.Text = totito[4, 0];
                         button36.Text = totito[5, 0];
                         GeezRick();
-                        VerficaGanador();
+                        Ganador();
                         break;
                     }
                 }
