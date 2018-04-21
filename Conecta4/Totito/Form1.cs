@@ -91,7 +91,7 @@ namespace TOTITO
             {
                 if (totito[i,0] != null && totito[i,1] != null && totito[i, 2] != null && totito[i, 3] != null)
                 {
-                    if ((totito[i, 0] == totito[i, 1]) && (totito[i, 2] == totito[i, 3]))
+                    if ((totito[i, 0] + totito[i, 1]) == (totito[i, 2] + totito[i, 3]))
                     {
                         string ganador = totito[i, 0];
                         MessageBox.Show("Ganador " + ganador);
@@ -104,7 +104,7 @@ namespace TOTITO
             {
                 if (totito[i, 6] != null && totito[i, 5] != null && totito[i, 4] != null && totito[i, 3] != null)
                 {
-                    if ((totito[i, 6] == totito[i, 5]) && (totito[i, 4] == totito[i, 3]))
+                    if ((totito[i, 6] + totito[i, 5]) == (totito[i, 4] + totito[i, 3]))
                     {
                         string ganador = totito[i, 6];
                         MessageBox.Show("Ganador " + ganador);
@@ -117,7 +117,7 @@ namespace TOTITO
             {
                 if (totito[i, 1] != null && totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null)
                 {
-                    if ((totito[i, 1] == totito[i, 2]) && (totito[i, 3] == totito[i, 4]))
+                    if ((totito[i, 1] + totito[i, 2]) == (totito[i, 3] + totito[i, 4]))
                     {
                         string ganador = totito[i, 1];
                         MessageBox.Show("Ganador " + ganador);
@@ -130,7 +130,7 @@ namespace TOTITO
             {
                 if (totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null && totito[i, 5] != null)
                 {
-                    if ((totito[i, 2] == totito[i, 3]) && (totito[i, 4] == totito[i, 5]))
+                    if ((totito[i, 2] + totito[i, 3]) == (totito[i, 4] + totito[i, 5]))
                     {
                         string ganador = totito[i, 2];
                         MessageBox.Show("Ganador " + ganador);
