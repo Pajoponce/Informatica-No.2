@@ -12,17 +12,18 @@ namespace TOTITO
 {
     public partial class Form1 : Form
     {
-        string[,] totito = new string[4, 4];
+        string[,] totito = new string[7,6];
         string tiros = "X";
         int contador=0;
         public Form1()
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Button botonele = (Button)sender;
-            
+         /*   Button botonele = (Button)sender;
+            button13.Text = totito[0, 3];
             switch (botonele.Name)
             {
 
@@ -156,7 +157,13 @@ namespace TOTITO
                     contador = contador + 1;
                     break;
             }
-            if(VerficaGanador())
+            
+            */
+            
+        }
+        private void Ganador()
+        {
+            if (VerficaGanador())
             {
                 for (int i = 0; i <= 3; i++)
                 {
@@ -182,34 +189,40 @@ namespace TOTITO
                     button16.Text = "";
                     contador = 0;
                     tiros = "X";
+                    
                 }
             }
-            
         }
-        private bool VerficaGanador()
+        public bool VerficaGanador()
         {
             string cc = "";
             for (int i = 0; i < 4; i++)
             {
                 cc = totito[i, 0] + totito[i, 1] + totito[i, 2] + totito[i, 3];
-                if (Veri(cc))
+                if (cc == "XXXX" || cc=="OOOO")
                 {
+                    GeezRick();
+                    MessageBox.Show("Ganador " + tiros);
                     return true;
                 }
             }
             for (int i = 0; i < 4; i++)
             {
                 cc = totito[0, i] + totito[1, i] + totito[2, i] + totito[3, i];
-                if (Veri(cc))
+                if (cc == "XXXX" || cc == "OOOO")
                 {
+                    GeezRick();
+                    MessageBox.Show("Ganador " + tiros);
                     return true;
                 }
             }
             for (int i = 0; i < 4; i++)
             {
                 cc = totito[0, 0] + totito[1, 1] +totito[2, 2] + totito[3, 3];
-                if (Veri(cc))
+                if (cc == "XXXX" || cc == "OOOO")
                 {
+                    GeezRick();
+                    MessageBox.Show("Ganador " + tiros);
                     return true;
 
                 }
@@ -218,28 +231,17 @@ namespace TOTITO
             for (int i = 0; i < 4; i++)
             {
                 cc = totito[0, 3] + totito[1, 2] + totito[2, 1] + totito[3,0];
-                if (Veri(cc))
+                if (cc == "XXXX" || cc == "OOOO")
                 {
+                    GeezRick();
+                    MessageBox.Show("Ganador "+ tiros);
                     return true;
                 }
             }
+            
             if (contador == 16)
             {
                 MessageBox.Show("Empate");
-                return true;
-            }
-            return false;
-        }
-        private static bool Veri(string cc)
-        {
-            if (cc == "XXXX")
-            {
-                MessageBox.Show("Ganador = X");
-                return true;
-            }
-            else if (cc == "OOOO")
-            {
-                MessageBox.Show("Ganador = O");
                 return true;
             }
             return false;
@@ -277,6 +279,104 @@ namespace TOTITO
         {
         }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                contador = contador + 1;
+                for (int i = 3; i > -1; i--)
+                {
+                    checkBox1.Checked = false;
+                    if (totito[0,i] == null)
+                    {
+                        totito[0, i] = tiros;
+                        button1.Text = totito[0, 0];
+                        button5.Text = totito[0, 1];
+                        button9.Text = totito[0, 2];
+                        button13.Text = totito[0, 3];
+                        GeezRick();
+
+                        Ganador();
+                        break;
+                    }
+                }
+            }
+        }
        
+
+        private void checkBox2_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                contador = contador + 1;
+                for (int i = 3; i > -1; i--)
+                {
+                    checkBox2.Checked = false;
+                    if (totito[1, i] == null)
+                    {
+                        totito[1, i] = tiros;
+                        button2.Text = totito[1, 0];
+                        button6.Text = totito[1, 1];
+                        button10.Text = totito[1, 2];
+                        button14.Text = totito[1, 3];
+                        GeezRick();
+
+                        Ganador();
+                        break;
+                    }
+                }
+            }
+        }
+
+        private void checkBox3_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                contador = contador + 1;
+                for (int i = 6; i > -1; i--)
+                {
+                    checkBox3.Checked = false;
+                    if (totito[2, i] == null)
+                    {
+                        totito[2, i] = tiros;
+                        button3.Text = totito[2, 0];
+                        button7.Text = totito[2, 1];
+                        button11.Text = totito[2, 2];
+                        button15.Text = totito[2, 3];
+                        GeezRick();
+                        Ganador();
+                        break;
+                    }
+                }
+            }
+        }
+
+        private void checkBox4_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked)
+            {
+                contador = contador + 1;
+                for (int i = 3; i > -1; i--)
+                {
+                    checkBox4.Checked = false;
+                    if (totito[3, i] == null)
+                    {
+                        totito[3, i] = tiros;
+                        button4.Text = totito[3, 0];
+                        button8.Text = totito[3, 1];
+                        button12.Text = totito[3, 2];
+                        button16.Text = totito[3, 3];
+                        GeezRick();
+                        Ganador();
+                        break;
+                    }
+                }
+            }
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
