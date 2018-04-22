@@ -113,24 +113,26 @@ namespace TOTITO
                 }
                 // Ganador de las Cordenadas empezando en 3
             }
-            for (int i = 5; i > -1; i--)
+            
+             for (int i = 5; i > -1; i--)
             {
-                if (totito[i, 1] != null && totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null)
+                if (totito[i, 4] != null && totito[i, 2] != null && totito[i, 3] != null && totito[i, 1] != null)
                 {
-                    if ((totito[i, 1] + totito[i, 2]) == (totito[i, 3] + totito[i, 4]))
+                    if ((totito[i, 4] + totito[i, 2]) == (totito[i, 3] + totito[i, 1]))
                     {
                         string ganador = totito[i, 1];
                         MessageBox.Show("Ganador " + ganador);
                         return true;
+                       
                     }
                 }
                 // Ganador de las Cordenadas empezado en 1
-            }
+            } 
             for (int i = 5; i > -1; i--)
             {
-                if (totito[i, 2] != null && totito[i, 3] != null && totito[i, 4] != null && totito[i, 5] != null)
+                if (totito[i, 5] != null && totito[i, 3] != null && totito[i, 4] != null && totito[i, 2] != null)
                 {
-                    if ((totito[i, 2] + totito[i, 3]) == (totito[i, 4] + totito[i, 5]))
+                    if ((totito[i, 5] + totito[i, 3]) == (totito[i, 4] + totito[i, 2]))
                     {
                         string ganador = totito[i, 2];
                         MessageBox.Show("Ganador " + ganador);
@@ -139,8 +141,22 @@ namespace TOTITO
                 }
                 // Ganador de las Cordenadas empezando en 2
             }
-            
-           
+
+            for (int i = 0; i < 4; i++) 
+            {
+                if (totito[0, i] != null && totito[1, i] != null && totito[2, i] != null && totito[3, i] != null) 
+                {
+                    if ((totito[0, i] + totito[1, i+1]) == (totito[2, i+2] + totito[3, i+3]))
+                    {
+                        string ganador = totito[0, i];
+                        MessageBox.Show("Ganador " + ganador);
+                        return true;
+                    }
+                }
+                // Ganador en diagonal empezando en 0,0
+            }
+
+
             return false;
         }
         private bool Validate(int fila, int columna)
