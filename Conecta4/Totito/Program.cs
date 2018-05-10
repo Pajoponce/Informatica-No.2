@@ -21,7 +21,7 @@ namespace TOTITO
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            string[,] totito = new string[6, 7];
+            String[,] Tablero = new String[6, 7];
         }
     }
 }
