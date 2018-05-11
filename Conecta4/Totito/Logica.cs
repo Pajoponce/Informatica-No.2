@@ -13,7 +13,7 @@ namespace TOTITO
         //public String[,] Tablero { get; }
         public String turno;
         public String turnotemp;
-        private String[,] Tablero = new String[6, 7];
+        public String[,] Tablero = new String[6, 7];
 
         public bool VerificaGanador(int columna)
         {
