@@ -1,6 +1,0 @@
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.Totito.Form1.resources
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.Totito.Properties.Resources.resources
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.csproj.GenerateResource.cache
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.csproj.CoreCompileInputs.cache
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.AssemblyInfoInputs.cache
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\obj\Debug\netcoreapp2.0\Conecta4.AssemblyInfo.cs

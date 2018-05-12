@@ -1,9 +1,0 @@
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\bin\x64\Debug\TOTITO.exe.config
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\bin\x64\Debug\TOTITO.exe
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\bin\x64\Debug\TOTITO.pdb
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.Form1.resources
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.Properties.Resources.resources
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.csproj.GenerateResource.cache
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.csproj.CoreCompileInputs.cache
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.exe
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Conecta4\TOTITO\obj\x64\Debug\TOTITO.pdb
