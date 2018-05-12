@@ -60,6 +60,17 @@ namespace Conecta_4.Tests
             Assert.AreEqual(true, logica.VerificaGanador(1));
         }
         [TestMethod()]
+        public void CambiarTiro_ColocarfichaTest()
+        {
+            //Blue
+            Logica logica = new Logica();
+            for (int i = 0; i < 4; i++)
+            {
+                logica.ColocarFicha(i);
+            }
+            Assert.AreEqual("X", logica.Tablero[5,3]);
+        }
+        [TestMethod()]
         public void CambiarTurnoTest()
         {
             Logica logica = new Logica();

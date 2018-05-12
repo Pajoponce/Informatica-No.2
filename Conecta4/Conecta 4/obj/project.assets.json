@@ -4227,26 +4227,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pjpon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\pjpon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica 2\\Informatica-No.2\\Conecta 4\\Conecta 4\\Conecta 4\\Conecta 4.csproj",
+      "projectUniqueName": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Conecta4\\Conecta 4\\Conecta 4.csproj",
       "projectName": "Conecta 4",
-      "projectPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica 2\\Informatica-No.2\\Conecta 4\\Conecta 4\\Conecta 4\\Conecta 4.csproj",
+      "projectPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Conecta4\\Conecta 4\\Conecta 4.csproj",
       "packagesPath": "C:\\Users\\pjpon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica 2\\Informatica-No.2\\Conecta 4\\Conecta 4\\Conecta 4\\obj\\",
+      "outputPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Conecta4\\Conecta 4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\pjpon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net45"
