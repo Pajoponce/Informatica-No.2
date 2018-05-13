@@ -12,9 +12,13 @@ namespace Conecta_4
         public String turno;
         public String turnotemp;
         public String[,] Tablero = new String[6, 7];
+        public Int32 Marca_X { get; set; }
+        public Int32 Marca_O { get; set; }
         public void test_only()
         {
             turnotemp = "X";
+            Marca_O = 0;
+            Marca_X = 0;
         }
             
         public bool VerificaGanador(int columna)
@@ -104,6 +108,21 @@ namespace Conecta_4
                     return true;
                 }
             }
+            //Black_1
+            for (int i = 1; i <= 2; i++)
+            {
+                if (Tablero[1, i] + Tablero[2, i + 1] + Tablero[3, i + 2] + Tablero[4, i + 3] == (turnotemp + turnotemp + turnotemp + turnotemp)) 
+                {
+                    return true;
+                }
+            }
+            for (int i = 4; i <= 5; i++)
+            {
+                if (Tablero[1, i] + Tablero[2, i - 1] + Tablero[3, i - 2] + Tablero[4, i - 3] == (turnotemp + turnotemp + turnotemp + turnotemp))
+                {
+                    return true;
+                }
+            }
             return false;
         }
         public void limpiar()
@@ -142,6 +161,26 @@ namespace Conecta_4
         public string GetString(int i, int j)
         {
             return Tablero[i, j];
+        }
+        public void Marcador(int Col)
+        {
+            if(VerificaGanador(Col))
+            {
+                if (turnotemp == "X")
+                {
+                    Marca_X += 1;
+                }
+                else if (turnotemp == "O") 
+                {
+                    Marca_O += 1;
+                    
+                }
+            }
+        }
+        public void ReiniciarMarcador()
+        {
+            Marca_O = 0;
+            Marca_X = 0;
         }
     }
 }

@@ -53,10 +53,10 @@ namespace Conecta_4.Tests
             //Blue
             Logica logica = new Logica();
             logica.turnotemp = "X";
-            logica.Tablero[4, 6] = "X";
-            logica.Tablero[3, 5] = "X";
+            logica.Tablero[1, 5] = "X";
             logica.Tablero[2, 4] = "X";
-            logica.Tablero[1, 3] = "X";
+            logica.Tablero[3, 3] = "X";
+            logica.Tablero[4, 2] = "X";
             Assert.AreEqual(true, logica.VerificaGanador(1));
         }
         [TestMethod()]

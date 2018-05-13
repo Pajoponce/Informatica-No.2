@@ -20,7 +20,6 @@ namespace Conecta_4
             InitializeComponent();
             logica.limpiar();
             Render();
-            logica.Tablero[0, 0] = "X";
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,6 +33,8 @@ namespace Conecta_4
 
         private void Render()
         {
+            button44.Text = logica.Marca_O.ToString();
+            button45.Text = logica.Marca_X.ToString();
             button1.Text = logica.GetString(0, 0);
             button2.Text = logica.GetString(0, 1);
             button3.Text = logica.GetString(0, 2);
@@ -76,12 +77,13 @@ namespace Conecta_4
             button40.Text = logica.GetString(5, 4);
             button41.Text = logica.GetString(5, 5);
             button42.Text = logica.GetString(5, 6);
-            button44.Text = logica.turno;
+            button46.Text = logica.turno;
         }
         public void vr(int n)
         {
             if (logica.VerificaGanador(n))
             {
+                logica.Marcador(n);
                 MessageBox.Show("Felicidades! Ganador: " + logica.turnotemp);
                 logica.limpiar();
                 Render();
@@ -185,6 +187,7 @@ namespace Conecta_4
         private void button43_Click(object sender, EventArgs e)
         {
             logica.limpiar();
+            logica.ReiniciarMarcador();
             Render();
         }
         private void button42_Click(object sender, EventArgs e)
@@ -194,6 +197,29 @@ namespace Conecta_4
         private void button44_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button44_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
         }
     }
 }
