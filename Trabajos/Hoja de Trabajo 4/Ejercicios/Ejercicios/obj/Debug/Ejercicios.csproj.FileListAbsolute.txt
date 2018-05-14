@@ -1,0 +1,6 @@
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\obj\Debug\Ejercicios.csprojResolveAssemblyReference.cache
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\bin\Debug\Ejercicios.exe.config
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\bin\Debug\Ejercicios.exe
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\obj\Debug\Ejercicios.exe
+C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicios\obj\Debug\Ejercicios.pdb
