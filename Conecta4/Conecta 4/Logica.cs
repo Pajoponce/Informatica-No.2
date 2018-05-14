@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Conecta_4
 {
-    public class Logica
+    public class Logica : ILogica
     {
         //public String[,] Tablero { get; }
-        public String turno;
-        public String turnotemp;
-        public String[,] Tablero = new String[6, 7];
+        public String turno { get; set; }
+        public String turnotemp { get; set; }
+        public String[,] Tablero { get; } = new String[6, 7];
         public Int32 Marca_X { get; set; }
         public Int32 Marca_O { get; set; }
         public void test_only()
@@ -24,7 +24,7 @@ namespace Conecta_4
         public bool VerificaGanador(int columna)
         {
             //Horizontal
-            if (columna < 3)
+            if (columna <= 3)
             {
                 for (int i = 0; i < 6; i++)
                 {
@@ -35,11 +35,31 @@ namespace Conecta_4
                 }
 
             }
-            if (columna > 2)
+            if (columna >= 3)
             {
                 for (int i = 0; i < 6; i++)
                 {
                     if (Tablero[i, columna] + Tablero[i, columna - 1] + Tablero[i, columna - 2] + Tablero[i, columna - 3] == (turnotemp + turnotemp + turnotemp + turnotemp))
+                    {
+                        return true;
+                    }
+                }
+            }
+            if (columna == 2 || columna == 5)
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    if (Tablero[i, columna -2] + Tablero[i, columna -1] + Tablero[i, columna ] + Tablero[i,columna+1] == (turnotemp + turnotemp + turnotemp + turnotemp))
+                    {
+                        return true;
+                    }
+                }
+            }
+            if (columna == 1 || columna == 4)
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    if (Tablero[i, columna - 1] + Tablero[i, columna] + Tablero[i, columna +1 ] + Tablero[i, columna + 2] == (turnotemp + turnotemp + turnotemp + turnotemp))
                     {
                         return true;
                     }

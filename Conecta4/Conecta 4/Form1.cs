@@ -13,7 +13,7 @@ namespace Conecta_4
     public partial class Form1 : Form
     {
 
-        Logica logica;
+        ILogica logica;
         public Form1()
         {
             logica = new Logica();
@@ -204,15 +204,6 @@ namespace Conecta_4
 
         }
 
-        private void richTextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
 
         private void button44_Click_1(object sender, EventArgs e)
         {
@@ -220,6 +211,11 @@ namespace Conecta_4
 
         private void button45_Click(object sender, EventArgs e)
         {
+        }
+
+        private void button42_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

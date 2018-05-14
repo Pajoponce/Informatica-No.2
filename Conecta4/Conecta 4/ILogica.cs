@@ -6,8 +6,30 @@ using System.Threading.Tasks;
 
 namespace Conecta_4
 {
-    public interface ILogica<T>
+    public interface ILogica
     {
-        T[] Array();
+        string[,] Tablero { get; } 
+
+        bool VerificaGanador(int c);
+
+        void limpiar();
+
+        void Marcador(int Col);
+
+        string GetString(int i, int j);
+
+        string turnotemp { get; set; }
+
+        string turno { get; set; }
+
+        void ReiniciarMarcador();
+
+        bool ColocarFicha(int columna);
+
+        string CambiarTurno();
+
+        Int32 Marca_O { get; set; }
+
+        Int32 Marca_X { get; set; }
     }
 }

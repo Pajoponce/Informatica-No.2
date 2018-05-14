@@ -15,7 +15,7 @@ namespace Conecta_4.Tests
         public void VerificaGanadorTest()
         {
             //Green
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             logica.turnotemp = "X";
             logica.Tablero[0, 0] = "X";
             logica.Tablero[1, 1] = "X";
@@ -24,10 +24,22 @@ namespace Conecta_4.Tests
             Assert.AreEqual(true, logica.VerificaGanador(1));
         }
         [TestMethod()]
+        public void VerificaGanadorTest1()
+        {
+            //Green
+            ILogica logica = new Logica();
+            logica.turnotemp = "X";
+            logica.Tablero[5, 0] = "X";
+            logica.Tablero[5, 1] = "X";
+            logica.Tablero[5, 2] = null;
+            logica.Tablero[5, 3] = "X";
+            Assert.AreEqual(false, logica.VerificaGanador(3));
+        }
+        [TestMethod()]
         public void VerificaGanadorTest2()
         {
             //Red
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             logica.turnotemp = "X";
             logica.Tablero[0, 4] = "X";
             logica.Tablero[1, 3] = "X";
@@ -39,7 +51,7 @@ namespace Conecta_4.Tests
         public void VerificaGanadorTest3()
         {
             //Fail
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             logica.turnotemp = "X";
             logica.Tablero[5, 5] = "X";
             logica.Tablero[5, 1] = "O";
@@ -51,7 +63,7 @@ namespace Conecta_4.Tests
         public void VerificaGanadorTest4()
         {
             //Blue
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             logica.turnotemp = "X";
             logica.Tablero[1, 5] = "X";
             logica.Tablero[2, 4] = "X";
@@ -59,11 +71,22 @@ namespace Conecta_4.Tests
             logica.Tablero[4, 2] = "X";
             Assert.AreEqual(true, logica.VerificaGanador(1));
         }
+        public void VerificaGanadorTest5()
+        {
+            //Blue
+            ILogica logica = new Logica();
+            logica.turnotemp = "X";
+            logica.Tablero[2, 0] = "X";
+            logica.Tablero[2, 1] = "X";
+            logica.Tablero[2, 2] = "X";
+            logica.Tablero[2, 3] = "X";
+            Assert.AreEqual(true, logica.VerificaGanador(3));
+        }
         [TestMethod()]
         public void CambiarTiro_ColocarfichaTest()
         {
             //Blue
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             for (int i = 0; i < 4; i++)
             {
                 logica.ColocarFicha(i);
@@ -73,7 +96,7 @@ namespace Conecta_4.Tests
         [TestMethod()]
         public void CambiarTurnoTest()
         {
-            Logica logica = new Logica();
+            ILogica logica = new Logica();
             logica.turno = "X";
             Assert.AreEqual("O", logica.CambiarTurno());
         }
