@@ -1,5 +1,0 @@
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Hola\bin\Debug\Hola.exe.config
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Hola\bin\Debug\Hola.exe
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Hola\bin\Debug\Hola.pdb
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Hola\obj\Debug\Hola.exe
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Hola\obj\Debug\Hola.pdb

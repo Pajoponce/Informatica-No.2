@@ -1,6 +1,0 @@
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.exe
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.csprojResolveAssemblyReference.cache
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.exe
-C:\Users\pjpon\Desktop\Repositorios\Informatica-No.2\Trabajos\Ejercicios 13-02\Ejercicios\Ejercicio 4\obj\Debug\Ejercicio 4.pdb
