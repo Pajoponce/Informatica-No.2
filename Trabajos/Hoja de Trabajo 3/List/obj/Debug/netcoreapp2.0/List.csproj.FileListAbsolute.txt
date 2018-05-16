@@ -1,0 +1,4 @@
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.csprojResolveAssemblyReference.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.csproj.CoreCompileInputs.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfoInputs.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfo.cs

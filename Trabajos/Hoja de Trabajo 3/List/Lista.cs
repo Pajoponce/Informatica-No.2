@@ -2,7 +2,7 @@ using System;
 
 namespace Lista
 {
-    public class List
+    public abstract class Lista<T> : IList<T> 
     {
         
     }

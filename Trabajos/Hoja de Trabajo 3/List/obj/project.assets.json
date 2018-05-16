@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\List.csproj",
+      "projectUniqueName": "c:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\List.csproj",
       "projectName": "List",
-      "projectPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\List.csproj",
+      "projectPath": "c:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\List.csproj",
       "packagesPath": "C:\\Users\\pjpon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\obj\\",
+      "outputPath": "c:\\Users\\pjpon\\Documents\\Repositorios\\Informatica-No.2\\Trabajos\\Hoja de Trabajo 3\\List\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
