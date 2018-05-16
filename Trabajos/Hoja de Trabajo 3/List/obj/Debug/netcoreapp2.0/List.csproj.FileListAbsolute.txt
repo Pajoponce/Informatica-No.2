@@ -2,3 +2,10 @@ C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.csproj.CoreCompileInputs.cache
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfoInputs.cache
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfo.cs
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.deps.json
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.runtimeconfig.json
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.runtimeconfig.dev.json
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.dll
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.pdb
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.dll
+c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.pdb
