@@ -11,6 +11,6 @@ namespace Lista
         {
 
         }
-        public abstract int Length {get;}
+        public abstract int Length {get; set;}
     }
 }

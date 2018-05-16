@@ -8,7 +8,8 @@ namespace ListTest
         [Fact]
         public void Test1()
         {
-
+            ArrayList sut = new ArrayList();
+            sut.Push
         }
     }
 }

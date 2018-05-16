@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\List",
-    "\\ListTest"
+    "\\ListTest",
+    "\\List\\bin",
+    "\\List\\obj"
   ],
-  "SelectedNode": "\\List\\List.csproj",
+  "SelectedNode": "\\List\\bin",
   "PreviewInSolutionExplorer": false
 }

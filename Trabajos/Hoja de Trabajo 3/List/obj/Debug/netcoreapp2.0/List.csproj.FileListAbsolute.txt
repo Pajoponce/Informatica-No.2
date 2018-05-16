@@ -1,4 +1,3 @@
-C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.csprojResolveAssemblyReference.cache
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.csproj.CoreCompileInputs.cache
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfoInputs.cache
 C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.AssemblyInfo.cs
@@ -9,3 +8,4 @@ c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 
 c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\bin\Debug\netcoreapp2.0\List.pdb
 c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.dll
 c:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\List\obj\Debug\netcoreapp2.0\List.pdb
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\list\obj\Debug\netcoreapp2.0\List.csprojAssemblyReference.cache

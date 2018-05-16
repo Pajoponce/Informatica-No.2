@@ -1,0 +1,4 @@
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\ListTest\obj\Debug\netcoreapp2.0\ListTest.csprojAssemblyReference.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\ListTest\obj\Debug\netcoreapp2.0\ListTest.csproj.CoreCompileInputs.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\ListTest\obj\Debug\netcoreapp2.0\ListTest.AssemblyInfoInputs.cache
+C:\Users\pjpon\Documents\Repositorios\Informatica-No.2\Trabajos\Hoja de Trabajo 3\ListTest\obj\Debug\netcoreapp2.0\ListTest.AssemblyInfo.cs
